@@ -5,12 +5,9 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Working My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some 
-    cool notes on web technologies.`,
+  paraOne: `Hello 👋 I'm Jide (Abdul-Qudus) a Web Designer & React Ninja, a developer with penchant for the Web, Software development, UI/UX development, and Graphic illustration. I also like scratching my own itch and writing about Web-Design, UI/UX case studies, and Tech thereof. I'm a FIFA gamer and like to think I'm a pro 😄
+
+  I currently hold 3+ years of work experience in the Development field 💯`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
     have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
     keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
@@ -25,9 +22,14 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['jideabdqudus', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX',]}
+          keywords={['jideabdqudus', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX']}
         />
-        <h1 className="titleSeparate">About Me <span>&#128071;&#127998;</span></h1>
+        <h1 className="titleSeparate">
+          About Me
+          <span>
+            &#128071;&#127998;
+          </span>
+        </h1>
         <p>
           {pageText.paraOne}
         </p>
