@@ -5,13 +5,11 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello 👋 I'm Jide (Abdul-Qudus) a Web Designer & React Ninja, a developer with penchant for the Web, Software development, UI/UX development, and Graphic illustration. I also like scratching my own itch and writing about Web-Design, UI/UX case studies, and Tech thereof. I'm a FIFA gamer and like to think I'm a pro 😄
-
-  I currently hold 3+ years of work experience in the Development field 💯`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Developer passionate about various web technologies, 
+  with penchant for <b>Web/App development</b> and also <b>UI/UX design.</b> I like scratching my own itch 
+  and writing about Web-Design, UI/UX case studies, and Tech thereof. During my spare time, I'm an autodidact polymath acquiring knowledge from 😄`,
+  paraTwo: `I work mostly with <b>Javascript technologies</b> like ReactJS and NodeJS. I also have hands on experience working 
+  with design tools such as <b>Illustrator/Figma/Photoshop</b> <br/><br/>I currently hold 3+ years of work experience in the Development field 💯`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
@@ -30,9 +28,7 @@ const AboutMe = () => {
             &#128071;&#127998;
           </span>
         </h1>
-        <p>
-          {pageText.paraOne}
-        </p>
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
       </div>
       <Row gutter={[20, 20]}>
@@ -88,6 +84,18 @@ const AboutMe = () => {
             height={60}
             width={60}
           />
+        </Col>
+        <Col xs={24} sm={24} md={24} lg={24}>
+          <AboutTile
+            img="bumblevir.png"
+            alt="virus image"
+            textH3="COVID-19 Tracker"
+            textH4="An app that tracks Numbers of Death, Infected and Recovered COVID-19 patients Globally and in all 186 countries. Built using React and Chart JS."
+            height={60}
+            width={60}
+            a="/contact"
+          />
+          <a href="https://google.com">View Project</a>
         </Col>
       </Row>
     </>
