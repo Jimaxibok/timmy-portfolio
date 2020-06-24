@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import AboutTile from '../../AbouTile';
+import ProjectTile from '../../ProjectTile';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
@@ -85,8 +86,8 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={24} lg={24}>
-          <AboutTile
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <ProjectTile
             img="bumblevir.png"
             alt="virus image"
             textH3="COVID-19 Tracker"
@@ -95,7 +96,6 @@ const AboutMe = () => {
             width={60}
             a="/contact"
           />
-          <a href="https://google.com">View Project</a>
         </Col>
       </Row>
     </>
