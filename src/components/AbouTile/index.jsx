@@ -18,7 +18,7 @@ const AboutTile = (props) => {
       <div className={`textCenter ${style.mrTp26PX}`}>
         <h4>{ textH4 || ''}</h4>
         <h3>{textH3 || '' }</h3>
-        <a href={a}>View</a>
+        <a href={a}>View Project</a>
       </div>
     </div>
   );
