@@ -10,27 +10,29 @@ const TagCard = (props) => {
   } = props;
   const tagPage = Config.pages.tag;
   return (
-    <Link className={style.tagCard} to={Utils.resolvePageUrl(tagPage, name)}>
-      <div className={style.tagCard}>
-        <div
-          className={style.tagImg}
-          style={{
-            backgroundImage: `url(${img})`,
-          }}
-        />
-        <div className={style.pd20px}>
-          <div className="textCenter">
-            <h4 style={{ color: `${color}` }}>
-              #
-              {name}
-            </h4>
+    <div>
+      <Link className={style.tagCard} to={Utils.resolvePageUrl(tagPage, name)}>
+        <div className={style.tagCard}>
+          <div
+            className={style.tagImg}
+            style={{
+              backgroundImage: `url(${img})`,
+            }}
+          />
+          <div className={style.pd20px}>
+            <div className="textCenter">
+              <h4 style={{ color: `${color}` }}>
+                #
+                {name}
+              </h4>
+            </div>
+            <p>
+              {description}
+            </p>
           </div>
-          <p>
-            {description}
-          </p>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 };
 
