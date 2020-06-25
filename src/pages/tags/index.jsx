@@ -33,7 +33,7 @@ const Tags = ({ data }) => {
         <SidebarWrapper>
           <>
             <div className="marginTopTitle">
-              <h1 className="titleSeparate">#Tags</h1>
+              <h1 className="titleSeparate">Projects</h1>
             </div>
             <Row gutter={[30, 20]}>
               {
@@ -42,7 +42,9 @@ const Tags = ({ data }) => {
                     <TagCard
                       img={val.node.childImageSharp.fluid.src}
                       name={val.node.name}
-                      href={tagData[val.node.name].href}
+                      website={tagData[val.node.name].website}
+                      projectName={tagData[val.node.name].projectName}
+                      github={tagData[val.node.name].github}
                       description={tagData[val.node.name].description}
                       color={tagData[val.node.name].color}
                     />
