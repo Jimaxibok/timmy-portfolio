@@ -3,7 +3,7 @@ import style from './tags.module.less';
 
 const TagCard = (props) => {
   const {
-    img, name, description, color, website, github, projectName,
+    img, description, color, website, github, projectName,
   } = props;
   return (
     <div>
@@ -18,7 +18,9 @@ const TagCard = (props) => {
           <div className={style.pd20px}>
             <div className="textCenter">
               <h4 style={{ color: `${color}` }}>
-                {projectName}
+                <b>
+                  {projectName}
+                </b>
               </h4>
             </div>
             <p>
