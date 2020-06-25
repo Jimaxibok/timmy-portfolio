@@ -43,66 +43,111 @@ const AboutMe = () => {
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="location.png"
+            img="javascript.png"
             height={60}
-            alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            alt="Javascript"
+            textH4="Programming"
+            textH3="Javascript"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="react.png"
+            alt="React"
+            textH4="Front-End"
+            textH3="React JS"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
-            alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            img="node.png"
+            alt="Node"
+            textH4="Back-End"
+            textH3="Node JS"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="html5.png"
+            alt="HTML5"
+            textH4="Front-End"
+            textH3="HTML 5"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="web.png"
-            alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            img="css.png"
+            alt="CSS"
+            textH4="Front-End"
+            textH3="CSS3"
+            height={60}
+            width={60}
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="bootstrap.png"
+            alt="Bootstrap"
+            textH4="Front-End"
+            textH3="Bootstrap"
             height={60}
             width={60}
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="graduation.png"
-            alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            img="gatsby.png"
+            alt="GATSBY"
+            textH4="Front-End, CMS"
+            textH3="Gatsby JS"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="wordpress.png"
+            alt="Wordpress"
+            textH4="Front-E"
+            textH3="CSS3"
             height={60}
             width={60}
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
-          <ProjectTile
-            img="bumblevir.png"
-            alt="virus image"
-            textH3="COVID-19 Tracker"
-            textH4="An app that tracks Numbers of Death, Infected and Recovered COVID-19 patients Globally and in all 186 countries. Built using React and Chart JS."
+          <AboutTile
+            img="bootstrap.png"
+            alt="Bootstrap"
+            textH4="Front-End"
+            textH3="Bootstrap"
             height={60}
             width={60}
-            a="/contact"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="html5.png"
+            alt="HTML5"
+            textH4="Front-End"
+            textH3="HTML 5"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="css.png"
+            alt="CSS"
+            textH4="Front-End"
+            textH3="CSS3"
+            height={60}
+            width={60}
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={8}>
+          <AboutTile
+            img="bootstrap.png"
+            alt="Bootstrap"
+            textH4="Front-End"
+            textH3="Bootstrap"
+            height={60}
+            width={60}
           />
         </Col>
       </Row>
