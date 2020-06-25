@@ -32,12 +32,12 @@ const AboutMe = () => {
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
       </div>
       <br />
-        <h3 className="titleSeparate">
+      <h3 className="titleSeparate">
         Tools Pack
-        <span role="img" description="aria-label">
-        🎒
-      </span>
-    </h3>
+        <span role="img" aria-label="Bag Pack">
+          🎒
+        </span>
+      </h3>
       <Row gutter={[20, 20]}>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
