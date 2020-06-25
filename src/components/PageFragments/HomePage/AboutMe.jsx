@@ -41,7 +41,7 @@ const AboutMe = () => {
       </span>
     </h3>
       <Row gutter={[20, 20]}>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="javascript.png"
             height={60}
@@ -50,7 +50,7 @@ const AboutMe = () => {
             textH3="Javascript"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="react.png"
             alt="React"
@@ -58,7 +58,7 @@ const AboutMe = () => {
             textH3="React JS"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={24} sm={24} md={12} lg={6}>
           <AboutTile
             img="node.png"
             alt="Node"
@@ -66,15 +66,17 @@ const AboutMe = () => {
             textH3="Node JS"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="html5.png"
-            alt="HTML5"
-            textH4="Front-End"
-            textH3="HTML 5"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={12} sm={12} md={12} lg={6}>
+        <AboutTile
+          img="mongodb.png"
+          alt="Mongo DB"
+          textH4="Database"
+          textH3="Mongo DB"
+          height={60}
+          width={60}
+        />
+      </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="css.png"
             alt="CSS"
@@ -84,17 +86,7 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="bootstrap.png"
-            alt="Bootstrap"
-            textH4="Front-End"
-            textH3="Bootstrap"
-            height={60}
-            width={60}
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={24} sm={24} md={12} lg={6}>
           <AboutTile
             img="gatsby.png"
             alt="GATSBY"
@@ -102,50 +94,50 @@ const AboutMe = () => {
             textH3="Gatsby JS"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="wordpress.png"
             alt="Wordpress"
-            textH4="Front-E"
-            textH3="CSS3"
+            textH4="CMS"
+            textH3="Wordpress"
             height={60}
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="bootstrap.png"
-            alt="Bootstrap"
-            textH4="Front-End"
-            textH3="Bootstrap"
+            img="contentful.png"
+            alt="Contentful"
+            textH4="CMS"
+            textH3="Contentful"
             height={60}
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={24} sm={24} md={12} lg={6}>
+        <AboutTile
+          img="figma.png"
+          alt="FIGMA"
+          textH4="Design-UI/UX"
+          textH3="Figma"
+          height={60}
+          width={60}
+        />
+      </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="html5.png"
-            alt="HTML5"
-            textH4="Front-End"
-            textH3="HTML 5"
+            img="photoshop.png"
+            alt="Photoshop"
+            textH4="Design-UI/UX"
+            textH3="Photoshop"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="css.png"
-            alt="CSS"
-            textH4="Front-End"
-            textH3="CSS3"
-            height={60}
-            width={60}
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={8}>
-          <AboutTile
-            img="bootstrap.png"
-            alt="Bootstrap"
-            textH4="Front-End"
-            textH3="Bootstrap"
+            img="illustrator.png"
+            alt="Illustrator"
+            textH4="Design-UI/UX"
+            textH3="Illustrator"
             height={60}
             width={60}
           />
