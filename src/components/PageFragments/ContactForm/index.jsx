@@ -24,7 +24,7 @@ export default () => {
 
     fetch(Config.contactFormUrl, { method: 'POST', body: formData })
       .then(() => {
-        message.success('Thank you for your kind response 🙂. Will get back to you.');
+        message.success('Thank you for your kind response. I will get back to you like a boomerang 🙂.');
         form.resetFields();
       })
       // eslint-disable-next-line no-console
