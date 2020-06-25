@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import AboutTile from '../../AbouTile';
-import ProjectTile from '../../ProjectTile';
 import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
@@ -33,10 +32,9 @@ const AboutMe = () => {
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
       </div>
       <br />
-      <hr />
-      <h3 className="titleSeparate">
-      Tools Pack
-      <span role="img" description="aria-label">
+        <h3 className="titleSeparate">
+        Tools Pack
+        <span role="img" description="aria-label">
         🎒
       </span>
     </h3>
@@ -67,15 +65,15 @@ const AboutMe = () => {
           />
         </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
-        <AboutTile
-          img="mongodb.png"
-          alt="Mongo DB"
-          textH4="Database"
-          textH3="Mongo DB"
-          height={60}
-          width={60}
-        />
-      </Col>
+          <AboutTile
+            img="mongodb.png"
+            alt="Mongo DB"
+            textH4="Database"
+            textH3="Mongo DB"
+            height={60}
+            width={60}
+          />
+        </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="css.png"
@@ -115,15 +113,15 @@ const AboutMe = () => {
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={6}>
-        <AboutTile
-          img="figma.png"
-          alt="FIGMA"
-          textH4="Design-UI/UX"
-          textH3="Figma"
-          height={60}
-          width={60}
-        />
-      </Col>
+          <AboutTile
+            img="figma.png"
+            alt="FIGMA"
+            textH4="Design-UI/UX"
+            textH3="Figma"
+            height={60}
+            width={60}
+          />
+        </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="photoshop.png"

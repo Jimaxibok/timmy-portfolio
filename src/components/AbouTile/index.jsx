@@ -3,7 +3,7 @@ import style from './about.module.less';
 
 const AboutTile = (props) => {
   const {
-    img, textH4, textH3, alt, height, width, a 
+    img, textH4, textH3, alt, height, width,
   } = props;
   return (
     <div className={style.aboutTile}>
