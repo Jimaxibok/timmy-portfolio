@@ -42,6 +42,7 @@ const Tags = ({ data }) => {
                     <TagCard
                       img={val.node.childImageSharp.fluid.src}
                       name={val.node.name}
+                      href={tagData[val.node.name].href}
                       description={tagData[val.node.name].description}
                       color={tagData[val.node.name].color}
                     />

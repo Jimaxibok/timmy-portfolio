@@ -29,7 +29,7 @@ const TagCard = (props) => {
             <p>
               {description}
             </p>
-            <Link target="__blank" to={href}>View Project</Link>
+            <a target="__blank" to={href}>View Project</a>
           </div>
         </div>
       </div>
