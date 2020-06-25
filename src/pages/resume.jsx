@@ -32,14 +32,14 @@ export default class Resume extends Component {
       <div>
         <SEO
           title="Resume"
-          description="My resume consists of my biodata of experience. You can hire me if you feel
-          I'm good for any position in your organization. I'm open to various challenges that come
+          description="My resume consists of my biodata of experience. I'm open to various challenges that come
           in the way of building various web applications."
           path="resume"
         />
         <Document
-          file="../resume.pdf"
+          file="../webresume.pdf"
           onLoadSuccess={this.onDocumentLoadSuccess}
+          style={{ width: '100%', height: '100%' }}
         >
           <Page pageNumber={pageNumber} />
         </Document>
