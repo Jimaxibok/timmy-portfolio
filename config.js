@@ -69,6 +69,12 @@ module.exports = {
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
+    tracker: {
+      name: 'tracker',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+      href:"https://google.com",
+    },
 
   },
 };

@@ -6,12 +6,12 @@ import style from './tags.module.less';
 
 const TagCard = (props) => {
   const {
-    img, name, description, color,
+    img, name, description, color, href,
   } = props;
   const tagPage = Config.pages.tag;
   return (
     <div>
-      <Link className={style.tagCard} to={Utils.resolvePageUrl(tagPage, name)}>
+      <div className={style.tagCard}>
         <div className={style.tagCard}>
           <div
             className={style.tagImg}
@@ -29,9 +29,10 @@ const TagCard = (props) => {
             <p>
               {description}
             </p>
+            <Link target="__blank" to={href}>View Project</Link>
           </div>
         </div>
-      </Link>
+      </div>
     </div>
   );
 };
