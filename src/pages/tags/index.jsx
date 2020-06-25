@@ -25,10 +25,9 @@ const Tags = ({ data }) => {
       <Layout className="container">
         <Header />
         <SEO
-          title="Tags"
-          description="This page consists of various Tags on various technologies that I'll be using
-          to write blogs. You can check the blogs related to the tags by clicking on any of the tags below."
-          path="tags"
+          title="Projects"
+          description="This page consists of various Projects undergone by Jide Abdul-Qudus."
+          path="projects"
         />
         <SidebarWrapper>
           <>
