@@ -1,8 +1,8 @@
 {
-  "name": "rolwinreevan_gatsby_blog",
+  "name": "jideabdqudus",
   "private": true,
-  "description": "the most beautiful gatsby template ever designed using antd",
-  "version": "0.1.0",
+  "description": "Abdul-Qudus Web Portfolio",
+  "version": "2.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -58,6 +58,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rolwin100/rolwinreevan_gatsby_blog"
+    "url": "https://github.com/jideabdqudus"
   }
 }
