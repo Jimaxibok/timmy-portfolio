@@ -29,6 +29,9 @@ const Contact = () => (
           </Col>
           <ContactForm />
         </Row>
+        <footer style={{ textAlign: 'center', padding: '20px' }}>
+          <b>~ Jide Abdul-Qudus Portfolio ~</b>
+        </footer>
       </SidebarWrapper>
     </Layout>
   </Layout>
