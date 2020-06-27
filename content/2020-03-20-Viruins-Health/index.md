@@ -1,53 +1,39 @@
 ---
-title: Why I migrated my website from wordpress to gatsby? (gatsby vs wordpress)
-tags: [ javascript, gatsby, typescript ]
-date: 2020-04-08T05:25:44.226Z
-path: blog/why-i-migrated-my-website-from-wordpress-to-gatsby
-cover: ./gatsby-wordpress.jpg
+title: UI; Viruins -  A healthy Life App/Website 
+tags: [ health, covid, viruins ]
+date: 2020-03-20T05:25:44.226Z
+path: blog/viruins-health
+cover: ./viruins-01.png
 excerpt: While building a CMS for blogging, worpdress is the most commonly used platform. Gatsby has also topped the list recently. This article talk which one to go for and why I shifted from wordpress to gatsby. Is gatsby better than wordpress is the question I would be answering.  
 ---
 
-[`Wordpress`](https://wordpress.org/) is an awesome 😍 platform for blogging 📖 and dynamic websites that powers more than 29% of the website on the internet 🌐. Previously I used to run my website on Wordpress. But recently I migrated my website and blog from Wordpress to Gatsby.
+## Brief 
 
-## So is wordpress bad and I decided to migrate my website 🤔 ? 
+In the early 2000s, the average human had an attention span of 42seconds, by 2019; `the average human now has an attention span of 8secs` that’s 1 second less than that of a goldfish. Every modern Website/Application makes use of Colors, Motion animations with exquisite Interfaces to get users to interact more and stay tuned on the website.
 
-No absolutely not. That would be stupid to say Wordpress is bad. In fact, I believe it is a wonderful platform to build websites without much technical knowledge. `Wordpress` is powered by `PHP`. It's a full-fledged platform that is good for blogging, marketing, creating dynamic websites and even supports eCommerce websites for small businesses. There are many plugins that are available for WordPress for different purposes and can be integrated with it very well.
+The concept of the Viruins UI is to blend interactive motion designs with modern Health Technologies leveraging the use of Colors, and Motion to keep the user interested in the application.
 
-## What is wordpress ?
+## The design Process
 
-Wordpress is an `opensource` content management system that is built on top of `PHP` and a `MySql` database. It gives a lot of flexibility to build dynamic websites and there are millions of themes and plugins available for Wordpress that makes it easy for anyone to build websites without much technical knowledge. You can get your website rolling over a night by using the ready made themes that are available out there. There are plenty of `Wordpress` hosting systems out there that take care of your deployment as well.
-
-## Then What's Gatsby ?
-
-Gatsby is a static page generator that takes data from various data sources and produces `graphql` API's that can be consumed by the frontend and once the build is taken the static pages are generated for the dynamic data. More over it's a framework built on top of `ReactJS` that takes care of lot of challenges while building `react` application. The most common data source that I use is transforming the markdowns into graphql data using the `gatsby-transformer-remark` plugin. Gatsby can also take data from sources like Wordpress and other CMS like drupal, contentful, etc. In short Gatsby’s data plugin ecosystem lets you build sites with the data you want — from one or many sources: get data from SaaS services, headless CMSs, APIs, databases, your file system, and more directly into your pages using GraphQL .
-
-
+Unlike previous works, this UI was rendered without any prior UX research to generate the result. Regardless, it qualifies as an impressive body of work as no particular project reaches perfection.
 
 ![](./gatsby-deploy.png)
 
-Gatsby has a lot of plugins that can be used for various other purposes. But you need to be a bit of a coding geek to work with `gatsby`.
+## Visual Design 
 
-## Why I migrated to gatsby?
+In an attempt to attract as many users as possible, I took my time to learn and understand what it means to have a strong visual design, making sure that the visuals are as good as possible. I worked on a style guide, and onboarding illustrations to assist with this.
 
-1.  ### Performance in mind
+1.  The use of a Cold tone to establish an overall sense of tranquility that is necessary to help users concentrate on the more important features of the app.
 
-    The first reason was keeping the performance of my web application in mind. Since gatsby is a single page application and serves mostly statically generated pages the performance is quite good with minimal deployment charges. Gatsby also optimizes the images that it serves. It also takes care of `prefetch` and `preload` of data.
+2. White is often used as the background of apps because it represents reverence, purity, innocence, and nothingness. This association calms people and influences their brain activity in a very positive way.
 
-2. ### Cost of deployment
+3. Red/Pink is the color of childhood, tenderness, sensitivity, romance, and health. It is often associated with being taken care of and with babies and mothers, which is why it’s primarily used for designing platforms related to women’s health, childbirth, and Health care.
 
-    The cost of deploying a gatsby application is way cheaper than a WordPress application. `Netlify` provides a free deployment plan with `HTTPS` encryption. Suppose we are hosting a Wordpress application we need considerably a good server with a `MySql` database. So the cost will be a bit higher for this setup.
+4. Fonts are another invaluable part of the app’s design. They’re like your business card, your outfit, or the way you style your hair — they represent who you are and what you do. I used a Serif font for this design.
 
-3. ### I'm a developer
+5. Other things I considered are the size of the buttons ( as the average width of an adult fingertip is 10mm ), Interline spacing, Icons e.t.c.
 
-    Since I'm a developer I could build the gatsby theme from scratch with a bit of `Javascript` coding. I automated the deployment process using `Netlify` and `Github`. So whenever I need to deploy some changes I just need to commit to my master branch and the deployment will be taken care of by the CI/CD setup of `Netlify`. I'm also comfortable writing the markdowns for my blog which is dynamic.
-
-4. ### SEO is also taken care
-
-    One important thing for me was branding my name `Rolwin Reevan` over the internet. For this all the factors of SEO had to be taken care which is a bit challenging. Since gatsby renders static pages the performance is good, which enhances the `SEO` as well. There are plugins for SEO in gatsby. Server-Side-Rendering (`SSR`) is also supported by gatsby.
-
-5. ### Gatsby satisfies my use-case
-
-    Most importantly gatsby was satisfying my use-case with minimal cost. My use-case before building my website was a static landing page and a dynamic blog. Even `Wordpress` satisfies this use-case very well, but like I told the cost of deployment is higher for WordPress than a gatsby application and moreover I didn't want all the features that WordPress provides.
+![](./viruins-02.jpeg)
 
 ## When to go for wordpress and when to go for gatsby?
 
