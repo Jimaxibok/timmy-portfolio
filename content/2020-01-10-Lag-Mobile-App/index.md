@@ -1,29 +1,27 @@
 ---
-title: Why I migrated my website from wordpress to gatsby? (gatsby vs wordpress)
-tags: [ javascript, gatsby, typescript ]
-date: 2020-04-08T05:25:44.226Z
-path: blog/why-i-migrated-my-website-from-wordpress-to-gatsby
-cover: ./gatsby-wordpress.jpg
+title: Lag Mobile App (UI/UX Overview)
+tags: [ app, ui, ux ]
+date: 2020-01-10T05:25:44.226Z
+path: blog/lag-mobile-app
+cover: ./lag-01.jpeg
 excerpt: While building a CMS for blogging, worpdress is the most commonly used platform. Gatsby has also topped the list recently. This article talk which one to go for and why I shifted from wordpress to gatsby. Is gatsby better than wordpress is the question I would be answering.  
 ---
 
-[`Wordpress`](https://wordpress.org/) is an awesome 😍 platform for blogging 📖 and dynamic websites that powers more than 29% of the website on the internet 🌐. Previously I used to run my website on Wordpress. But recently I migrated my website and blog from Wordpress to Gatsby.
+## The Brief 
 
-## So is wordpress bad and I decided to migrate my website 🤔 ? 
+The `UI/UX` of this app is concentrated on the experiences of users of the `lag mobile app` available on the google play store.
+The App is a mobile application that helps to solve the problems experienced with navigating constantly through the school's website. It offers university students an opportunity to get first-hand information and access to there database/portal.
 
-No absolutely not. That would be stupid to say Wordpress is bad. In fact, I believe it is a wonderful platform to build websites without much technical knowledge. `Wordpress` is powered by `PHP`. It's a full-fledged platform that is good for blogging, marketing, creating dynamic websites and even supports eCommerce websites for small businesses. There are many plugins that are available for WordPress for different purposes and can be integrated with it very well.
+## Project Brief
 
-## What is wordpress ?
+An interactive mobile application prototype that can solve the problem of searching, navigating, downloading and filtering information in a convenient way and analyze the UI/UX progress through iterations all along the design process through proper `design thinking` strategies.
 
-Wordpress is an `opensource` content management system that is built on top of `PHP` and a `MySql` database. It gives a lot of flexibility to build dynamic websites and there are millions of themes and plugins available for Wordpress that makes it easy for anyone to build websites without much technical knowledge. You can get your website rolling over a night by using the ready made themes that are available out there. There are plenty of `Wordpress` hosting systems out there that take care of your deployment as well.
+## The Design Process ?
 
-## Then What's Gatsby ?
-
-Gatsby is a static page generator that takes data from various data sources and produces `graphql` API's that can be consumed by the frontend and once the build is taken the static pages are generated for the dynamic data. More over it's a framework built on top of `ReactJS` that takes care of lot of challenges while building `react` application. The most common data source that I use is transforming the markdowns into graphql data using the `gatsby-transformer-remark` plugin. Gatsby can also take data from sources like Wordpress and other CMS like drupal, contentful, etc. In short Gatsby’s data plugin ecosystem lets you build sites with the data you want — from one or many sources: get data from SaaS services, headless CMSs, APIs, databases, your file system, and more directly into your pages using GraphQL .
-
+As this work serves as a personal project and away from my normal core software programming, I thought to create a good UX strategy based on knowledge sought around.
 
 
-![](./gatsby-deploy.png)
+![](./lag-02.jpeg)
 
 Gatsby has a lot of plugins that can be used for various other purposes. But you need to be a bit of a coding geek to work with `gatsby`.
 
