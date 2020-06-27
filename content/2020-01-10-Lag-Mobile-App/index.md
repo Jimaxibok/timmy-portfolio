@@ -16,36 +16,27 @@ The App is a mobile application that helps to solve the problems experienced wit
 
 An interactive mobile application prototype that can solve the problem of searching, navigating, downloading and filtering information in a convenient way and analyze the UI/UX progress through iterations all along the design process through proper `design thinking` strategies.
 
-## The Design Process ?
+## The Design Process
 
 As this work serves as a personal project and away from my normal core software programming, I thought to create a good UX strategy based on knowledge sought around.
 
 
-![](./lag-02.jpeg)
+![](./lag-02.png)
 
-Gatsby has a lot of plugins that can be used for various other purposes. But you need to be a bit of a coding geek to work with `gatsby`.
+## Interviews/Reviews 
+To start this process I took reviews from students, coworkers, and end-users of the application to understand important areas that needed to be worked on.
 
-## Why I migrated to gatsby?
+Based on the survey and interview research, the results indicated that:
 
-1.  ### Performance in mind
+-  ### Users want options for updating data
 
-    The first reason was keeping the performance of my web application in mind. Since gatsby is a single page application and serves mostly statically generated pages the performance is quite good with minimal deployment charges. Gatsby also optimizes the images that it serves. It also takes care of `prefetch` and `preload` of data.
+- ### Users want to have time to use
 
-2. ### Cost of deployment
+- ### Users want flexibility in making payments
 
-    The cost of deploying a gatsby application is way cheaper than a WordPress application. `Netlify` provides a free deployment plan with `HTTPS` encryption. Suppose we are hosting a Wordpress application we need considerably a good server with a `MySql` database. So the cost will be a bit higher for this setup.
+- ### Users want real-time information feed.
 
-3. ### I'm a developer
-
-    Since I'm a developer I could build the gatsby theme from scratch with a bit of `Javascript` coding. I automated the deployment process using `Netlify` and `Github`. So whenever I need to deploy some changes I just need to commit to my master branch and the deployment will be taken care of by the CI/CD setup of `Netlify`. I'm also comfortable writing the markdowns for my blog which is dynamic.
-
-4. ### SEO is also taken care
-
-    One important thing for me was branding my name `Rolwin Reevan` over the internet. For this all the factors of SEO had to be taken care which is a bit challenging. Since gatsby renders static pages the performance is good, which enhances the `SEO` as well. There are plugins for SEO in gatsby. Server-Side-Rendering (`SSR`) is also supported by gatsby.
-
-5. ### Gatsby satisfies my use-case
-
-    Most importantly gatsby was satisfying my use-case with minimal cost. My use-case before building my website was a static landing page and a dynamic blog. Even `Wordpress` satisfies this use-case very well, but like I told the cost of deployment is higher for WordPress than a gatsby application and moreover I didn't want all the features that WordPress provides.
+![](./lag-03.png)
 
 ## When to go for wordpress and when to go for gatsby?
 
