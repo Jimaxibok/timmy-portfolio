@@ -38,21 +38,50 @@ Based on the survey and interview research, the results indicated that:
 
 ![](./lag-03.png)
 
-## When to go for wordpress and when to go for gatsby?
+## Affinity Mapping
 
-So It depends on the use-case when to go for Gatsby and When to go for Wordpress
+Subsequently, I started identifying the user’s preferences and pain-points. Once I did that, I wrote them down and grouped them in an affinity map which helped me pinpoint recurrent themes and issues. I selected the most recurrent themes or problems from the reviews to be the focal points of the mobile application.
 
-1. If you have a team of more than 5 non-technical people working for some content marketing company then going for WordPress will be a good idea because gatsby involves a bit of technical work. If you are a javascript developer or a full stack web developer who wants to just build his portfolio and have a blog then gatsby is a good idea if you are maintaining the website by yourself.
 
-2. If cost is not much of your concern and ease of use is your concern then going for wordpress is a good idea. Because Wordpress involves a lot of plugins like wp-bakery, yoast, etc, that makes drag and drop functionality and SEO easier. If cost is your concern and you are ready for some little hard work you can go for Gatsby.
+## User Flow
 
-3. If you are planning for an online e-commerce application for small businesses with email marketing then Wordpress is probably a better solution than Gatsby I believe. The reason is you can build an e-commerce website easily with Wordpress. There are many plugins and themes that are available to set up an e-commerce website with Wordpress and you can easily keep track of your leads. The most commonly used Wordpress plugin for e-commerce application is `woocommerce`.
+Before wireframing and creating a high-fidelity prototype, I decided to create a simple user flow in Figma. With this, I was able to better understand how the user would interact with the app to perform the tasks needed.
 
-4. SEO and Performance in mind with minimal cost then `Gatsby` is the solution you can build a SPA and PWA applications easily with `Gatsby`. Even Wordpress has some cool plugins like `Yoast` for SEO and there are some very good flexibility while using Wordpress enhancing the SEO without much technical knowledge but you need a very good server to keep the performance of the `Wordpress` site up. If SEO is your concern then you should make sure that your site renders in less then 3 seconds.
+![](./lag-04.png)
 
-## Building a Gatsby application
+## Low-Fidelity Wireframes
 
-There are plenty of different ways to build gatsby websites. To start with you can look into official [gatsby docs](https://www.gatsbyjs.org/docs/) and the tutorials on their [site](https://www.gatsbyjs.org/tutorial/). There are also a list of [plugins](https://www.gatsbyjs.org/plugins/) that can help you to develop your site faster. For more comparision about Wordpress with Gatsby you can check this [link](https://www.gatsbyjs.org/features/cms/). You can go through the starters which are available over the internet. I have also open-sourced my website [Rolwin Reevan](https://rolwinreevan.com) on my [Github page](https://github.com/rolwin100/rolwinreevan_gatsby_blog). You can use this starter to build your portfolio. I have put in a lot of effort to build this starter. So please make sure you give a star for this repo.
+Right after finishing the User Flow, I was ready to start prototyping my low fidelity wireframes of the app on paper.
+
+![](./lag-05.png)
+
+## Visual Design/Prototype
+
+For this part of the process, I was able to transform the paper frameworks into high-fidelity prototypes.
+
+![](./lag-06.jpeg)
+
+## High-Fidelity Prototype
+
+User guide into the High-fidelity prototype, with a thorough look at the functions/pathways.
+
+![](./lag-07.jpeg)![](./lag-08.jpeg)
+
+## Conclusion 
+
+Working on this project has been a great experience and I have learned about the user-centered design process in great detail. Understanding the UX process through a user-centered lens allows for designing apps/websites with the user in mind by understanding the motivations and desires of each user.
+
+![](./lag-09.jpeg)
+
+## Readers feedback
+
+After reading several UX case studies, seeking to find the perfect methodology, I realized that nobody’s project reaches perfection and I’m pretty sure that mine is not the exception.
+For this reason, I’d really really love to have feedback from you guys whether it is on my methodology, my writing or any other thing you think I should improve.
+Thanks a lot in advance for the feedback and for your reading!
+I’ll leave you with extra images from the project :)
+
+![](./lag-10.jpeg) ![](./lag-11.jpeg) ![](./lag-12.jpeg)
+
 
 
 
