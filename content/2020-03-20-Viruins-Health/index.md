@@ -33,23 +33,20 @@ In an attempt to attract as many users as possible, I took my time to learn and 
 
 5. Other things I considered are the size of the buttons ( as the average width of an adult fingertip is 10mm ), Interline spacing, Icons e.t.c.
 
+<br/>
+
 ![](./viruins-02.jpeg)
 
-## When to go for wordpress and when to go for gatsby?
+## Conclusion
 
-So It depends on the use-case when to go for Gatsby and When to go for Wordpress
+Working on this project has been a great experience and I have learned about the user-centered design process and motion design in great detail. It has also given me the ability to understand how effective colors could be in User Interaction amongst other things.
 
-1. If you have a team of more than 5 non-technical people working for some content marketing company then going for WordPress will be a good idea because gatsby involves a bit of technical work. If you are a javascript developer or a full stack web developer who wants to just build his portfolio and have a blog then gatsby is a good idea if you are maintaining the website by yourself.
+<br/>
 
-2. If cost is not much of your concern and ease of use is your concern then going for wordpress is a good idea. Because Wordpress involves a lot of plugins like wp-bakery, yoast, etc, that makes drag and drop functionality and SEO easier. If cost is your concern and you are ready for some little hard work you can go for Gatsby.
+![](./viruins-03.png)
 
-3. If you are planning for an online e-commerce application for small businesses with email marketing then Wordpress is probably a better solution than Gatsby I believe. The reason is you can build an e-commerce website easily with Wordpress. There are many plugins and themes that are available to set up an e-commerce website with Wordpress and you can easily keep track of your leads. The most commonly used Wordpress plugin for e-commerce application is `woocommerce`.
+Thanks a lot in advance for the feedback and for your reading!
 
-4. SEO and Performance in mind with minimal cost then `Gatsby` is the solution you can build a SPA and PWA applications easily with `Gatsby`. Even Wordpress has some cool plugins like `Yoast` for SEO and there are some very good flexibility while using Wordpress enhancing the SEO without much technical knowledge but you need a very good server to keep the performance of the `Wordpress` site up. If SEO is your concern then you should make sure that your site renders in less then 3 seconds.
-
-## Building a Gatsby application
-
-There are plenty of different ways to build gatsby websites. To start with you can look into official [gatsby docs](https://www.gatsbyjs.org/docs/) and the tutorials on their [site](https://www.gatsbyjs.org/tutorial/). There are also a list of [plugins](https://www.gatsbyjs.org/plugins/) that can help you to develop your site faster. For more comparision about Wordpress with Gatsby you can check this [link](https://www.gatsbyjs.org/features/cms/). You can go through the starters which are available over the internet. I have also open-sourced my website [Rolwin Reevan](https://rolwinreevan.com) on my [Github page](https://github.com/rolwin100/rolwinreevan_gatsby_blog). You can use this starter to build your portfolio. I have put in a lot of effort to build this starter. So please make sure you give a star for this repo.
 
 
 
