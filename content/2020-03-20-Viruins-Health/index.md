@@ -17,7 +17,6 @@ The concept of the Viruins UI is to blend interactive motion designs with modern
 
 Unlike previous works, this UI was rendered without any prior UX research to generate the result. Regardless, it qualifies as an impressive body of work as no particular project reaches perfection.
 
-![](./gatsby-deploy.png)
 
 ## Visual Design 
 
@@ -44,6 +43,8 @@ Working on this project has been a great experience and I have learned about the
 <br/>
 
 ![](./viruins-03.png)
+
+<br/>
 
 Thanks a lot in advance for the feedback and for your reading!
 
