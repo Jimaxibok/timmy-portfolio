@@ -40,12 +40,14 @@ Based on the survey and interview research, the results indicated that:
 
 ## Affinity Mapping
 
-Subsequently, I started identifying the user’s preferences and pain-points. Once I did that, I wrote them down and grouped them in an affinity map which helped me pinpoint recurrent themes and issues. I selected the most recurrent themes or problems from the reviews to be the focal points of the mobile application.
+Subsequently, I started identifying the user’s `preferences` and `pain-points`. Once I did that, I wrote them down and grouped them in an affinity map which helped me pinpoint recurrent themes and issues. I selected the most recurrent themes or problems from the reviews to be the focal points of the mobile application.
 
 
 ## User Flow
 
-Before wireframing and creating a high-fidelity prototype, I decided to create a simple user flow in Figma. With this, I was able to better understand how the user would interact with the app to perform the tasks needed.
+Before `wireframing` and creating a `high-fidelity prototype`, I decided to create a simple user flow in Figma. With this, I was able to better understand how the user would interact with the app to perform the tasks needed.
+
+<br/>
 
 ![](./lag-04.png)
 
@@ -53,11 +55,15 @@ Before wireframing and creating a high-fidelity prototype, I decided to create a
 
 Right after finishing the User Flow, I was ready to start prototyping my low fidelity wireframes of the app on paper.
 
+<br/>
+
 ![](./lag-05.png)
 
 ## Visual Design/Prototype
 
 For this part of the process, I was able to transform the paper frameworks into high-fidelity prototypes.
+
+<br/>
 
 ![](./lag-06.jpeg)
 
@@ -65,20 +71,27 @@ For this part of the process, I was able to transform the paper frameworks into 
 
 User guide into the High-fidelity prototype, with a thorough look at the functions/pathways.
 
+<br/>
+
 ![](./lag-07.jpeg)![](./lag-08.jpeg)
 
 ## Conclusion 
 
-Working on this project has been a great experience and I have learned about the user-centered design process in great detail. Understanding the UX process through a user-centered lens allows for designing apps/websites with the user in mind by understanding the motivations and desires of each user.
+Working on this project has been a great experience and I have learned about the `user-centered design` process in great detail. Understanding the UX process through a user-centered lens allows for designing apps/websites with the user in mind by understanding the motivations and desires of each user.
 
-![](./lag-09.jpeg)
+<br/>
+
+![](./lag-09.png)
 
 ## Readers feedback
 
-After reading several UX case studies, seeking to find the perfect methodology, I realized that nobody’s project reaches perfection and I’m pretty sure that mine is not the exception.
+After reading several UX case studies, seeking to find the perfect methodology, `I realized that nobody’s project reaches perfection` and I’m pretty sure that mine is not the exception.
 For this reason, I’d really really love to have feedback from you guys whether it is on my methodology, my writing or any other thing you think I should improve.
 Thanks a lot in advance for the feedback and for your reading!
+
 I’ll leave you with extra images from the project :)
+
+<br/>
 
 ![](./lag-10.jpeg) ![](./lag-11.jpeg) ![](./lag-12.jpeg)
 
