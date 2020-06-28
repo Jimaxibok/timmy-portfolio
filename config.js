@@ -95,7 +95,7 @@ module.exports = {
       color: '#d923ef',
       website: 'https://github.com/jideabdqudus/blackdash',
       github: 'https://github.com/jideabdqudus/blackdash',
-    },   
+    },
     githubfinder: {
       name: 'githubfinder',
       projectName: 'Github Finder',

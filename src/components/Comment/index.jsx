@@ -21,7 +21,7 @@ class Comments extends React.Component {
         this.page.url = pageCanonicalUrl;
         this.page.identifier = pageId;
       };
-      (function () {
+      (function disqus() {
         // eslint-disable-next-line no-undef
         const d = document;
         const s = d.createElement('script');
