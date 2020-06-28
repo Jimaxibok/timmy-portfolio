@@ -6,7 +6,7 @@ module.exports = {
   author: 'Jide Abdul-Qudus',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || 'https://abulqudus-com.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
