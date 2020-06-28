@@ -8,7 +8,7 @@ import Config from '../../../../config';
 const validateMessages = {
   required: 'This field is required!',
   types: {
-    email: 'Not a valid email!',
+    email: 'Hey Friend, Was that a valid email?',
   },
 };
 export default () => {
@@ -24,7 +24,7 @@ export default () => {
 
     fetch(Config.contactFormUrl, { method: 'POST', body: formData })
       .then(() => {
-        message.success('Thank you for your kind response. I will get back to you like a boomerang 🙂.');
+        message.success('Thank you for your kind response, I will get back to you like a boomerang 🙂.');
         form.resetFields();
       })
       // eslint-disable-next-line no-console
@@ -44,8 +44,8 @@ export default () => {
           <Input.TextArea size="large" rows={7} placeholder="Description *" />
         </Form.Item>
         <Form.Item>
-          <Button type="primary" shape="round" size="large" htmlType="submit" style={{ background: '#304CFD' }}>
-            SUBMIT
+          <Button type="primary" shape="round" size="large" htmlType="submit" style={{ background: '#fcba02' }}>
+            SEND
           </Button>
         </Form.Item>
       </Form>
