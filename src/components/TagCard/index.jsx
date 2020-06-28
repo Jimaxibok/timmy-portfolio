@@ -27,10 +27,10 @@ const TagCard = (props) => {
               {description}
             </p>
             <a target="__blank" href={website}>
-              <i className="fa fa-globe" />
+              <i className="fa fa-globe" style={{ color: '#fcba02' }} />
             </a>
             <a target="__blank" href={github}>
-              <i className="fa fa-github" />
+              <i className="fa fa-github" style={{ color: '#fcba02' }} />
             </a>
           </div>
         </div>
