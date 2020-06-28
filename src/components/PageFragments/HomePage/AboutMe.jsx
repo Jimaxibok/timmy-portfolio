@@ -89,7 +89,7 @@ const AboutMe = () => {
           <AboutTile
             img="gatsby.png"
             alt="GATSBY"
-            textH4="Front-End, CMS"
+            textH4="CMS"
             textH3="Gatsby JS"
           />
         </Col>
@@ -139,6 +139,31 @@ const AboutMe = () => {
             textH3="Illustrator"
             height={60}
             width={60}
+          />
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
+            img="git.png"
+            height={60}
+            alt="Git"
+            textH4="Development Tool"
+            textH3="Git"
+          />
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
+            img="github.png"
+            alt="Github"
+            textH4="Development Tool"
+            textH3="Github"
+          />
+        </Col>
+        <Col xs={24} sm={24} md={12} lg={12}>
+          <AboutTile
+            img="seo.png"
+            alt="Seo"
+            textH4="Optimization"
+            textH3="Search Engine Optimization"
           />
         </Col>
       </Row>
