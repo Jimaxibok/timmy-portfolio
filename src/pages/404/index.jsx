@@ -32,10 +32,16 @@ export default ({ data }) => (
             />
           </div>
           <div className={`textCenter ${style.boxContent}`}>
-            <h1>This page was lost</h1>
+            <h1><b>What did you just do?</b></h1>
             <p>
-              The Page You are looking for isn’t available. Try to search again or use
-              the Go Back button below.
+              Hmmm, how did you get here?
+              <span role="img" aria-label="thinking">
+                🤔
+              </span>
+              <br />
+              Either the page You are looking for is not available or you can not type.
+              <br />
+              Try to search again or use the Go Back button below.
             </p>
             <Link to="/">
               <div className={`centerAlign ${style.textHover}`}>
