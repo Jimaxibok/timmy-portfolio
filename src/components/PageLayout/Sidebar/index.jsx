@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Affix, Layout, Row, Col,
 } from 'antd';
-import { Link } from 'gatsby';
 import FA from 'react-fontawesome';
 import FeatherIcon from 'feather-icons-react';
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -52,9 +51,9 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <Link to="/resume">
+        <a href="https://drive.google.com/file/d/1NrMPhgpZac-clcxVUrMy3BXpcNfd8UhH/view" target="__blank">
           View my Resume
-        </Link>
+        </a>
       </div>
     </div>
   </aside>
