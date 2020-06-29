@@ -8,7 +8,7 @@ import Config from '../../../../config';
 const validateMessages = {
   required: 'This field is required!',
   types: {
-    email: 'Hey Friend, Was that a valid email?',
+    email: 'Hey Friend, is that a valid email?',
   },
 };
 export default () => {
