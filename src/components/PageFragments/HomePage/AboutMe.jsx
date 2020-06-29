@@ -8,7 +8,7 @@ const pageText = {
   paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Developer passionate about various web technologies, 
   with penchant for <b>Web/App development</b> and also <b>UI/UX design.</b> I like scratching my own itch 
   and writing about Web-Design, UI/UX case studies, and Tech thereof. During my spare time, I'm an autodidact polymath acquiring knowledge
-  from various resources online 😎`,
+  from various resources online 🤓.`,
   paraTwo: `I work mostly with <b>Javascript technologies</b>. I also have hands on experience working with design tools such as <b>Illustrator / Figma / Photoshop.</b> 
   <br/><br/>I currently hold 3+ years of work experience in the Development field 💯`,
 };
@@ -21,7 +21,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['jideabdqudus', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX']}
+          keywords={['jideabdqudus', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX', 'Meaning of Qudus', 'Abdul-Azeez', 'Kudus', 'Qudusini', 'Qudusini']}
         />
         <h1 className="titleSeparate">
           About Me
