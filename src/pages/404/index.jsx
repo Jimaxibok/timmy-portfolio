@@ -40,7 +40,6 @@ export default ({ data }) => (
               </span>
               <br />
               Either the page You are looking for is not available or you can not type.
-              <br />
               Try to search again or use the Go Back button below.
             </p>
             <Link to="/">
