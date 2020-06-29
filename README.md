@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://abdulqudus.com">
-    <img alt="Gatsby" src="./public/icons/icon-72x72.png" width="60" />
+    <img alt="Jide" src="https://drive.google.com/file/d/1YQJVca7irIjQ8_j_XlFRsoj8oXB0iAIC/view?usp=sharing" width="60" />
   </a>
 </p>
 <h1 align="center">
