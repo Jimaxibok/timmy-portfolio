@@ -52,9 +52,9 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <a href="/resume">
+        <Link to="/resume">
           View my Resume
-        </a>
+        </Link>
       </div>
     </div>
   </aside>
