@@ -1,17 +1,21 @@
 ---
-title: Why I migrated my website from wordpress to gatsby? (gatsby vs wordpress)
-tags: [ javascript, gatsby, typescript ]
-date: 2020-04-08T05:25:44.226Z
-path: blog/why-i-migrated-my-website-from-wordpress-to-gatsby
-cover: ./gatsby-wordpress.jpg
-excerpt: While building a CMS for blogging, worpdress is the most commonly used platform. Gatsby has also topped the list recently. This article talk which one to go for and why I shifted from wordpress to gatsby. Is gatsby better than wordpress is the question I would be answering.  
+title: Why I migrated my website?
+tags: [ javascript, gatsby, contentful ]
+date: 2020-06-29T05:25:44.226Z
+path: blog/why-i-migrated-my-website
+cover: ./1.png
+excerpt: This article shows why i migrated my website from the past Impressive UI and the refactoring process that took place using Gatsby.  
 ---
 
-[`Wordpress`](https://wordpress.org/) is an awesome 😍 platform for blogging 📖 and dynamic websites that powers more than 29% of the website on the internet 🌐. Previously I used to run my website on Wordpress. But recently I migrated my website and blog from Wordpress to Gatsby.
+I launched my web protfolio 27th of April, (My birthday coincidentally ahah 🤔), While i had so many impressive reviews and I loved the look because it depicted just what i wanted, color and life in the Front End development. 
 
-## So is wordpress bad and I decided to migrate my website 🤔 ? 
+I migrated to my new page few months later, why?
 
-No absolutely not. That would be stupid to say Wordpress is bad. In fact, I believe it is a wonderful platform to build websites without much technical knowledge. `Wordpress` is powered by `PHP`. It's a full-fledged platform that is good for blogging, marketing, creating dynamic websites and even supports eCommerce websites for small businesses. There are many plugins that are available for WordPress for different purposes and can be integrated with it very well.
+## exPage ? 
+
+![](./2.png)
+
+It was amazing building the page, No absolutely not. That would be stupid to say Wordpress is bad. In fact, I believe it is a wonderful platform to build websites without much technical knowledge. `Wordpress` is powered by `PHP`. It's a full-fledged platform that is good for blogging, marketing, creating dynamic websites and even supports eCommerce websites for small businesses. There are many plugins that are available for WordPress for different purposes and can be integrated with it very well.
 
 ## What is wordpress ?
 
