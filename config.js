@@ -104,5 +104,13 @@ module.exports = {
       website: 'https://vigorous-yonath-bb0546.netlify.app/',
       github: 'https://github.com/jideabdqudus/github-finder',
     },
+    thesimpsons: {
+      name: 'thesimpsons',
+      projectName: 'The Simpsons Quotes',
+      description: 'A React web application that auto generates quotes from the Simpsons series',
+      color: '#fed304',
+      website: 'https://https://agitated-swanson-d0d5c5.netlify.app/',
+      github: 'https://github.com/jideabdqudus/quote-generator',
+    },
   },
 };

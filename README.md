@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://abdulqudus.com">
     <img alt="Jide" src="https://drive.google.com/file/d/1YQJVca7irIjQ8_j_XlFRsoj8oXB0iAIC/view" width="60" />
