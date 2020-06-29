@@ -5,7 +5,7 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Developer passionate about various web technologies, 
+  paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Full-Stack Developer 
   with penchant for <b>Web/App development</b> and also <b>UI/UX design.</b> I like scratching my own itch 
   and writing about Web-Design, UI/UX case studies, and Tech thereof. During my spare time, I'm an autodidact polymath acquiring knowledge
   from various resources online 🤓.`,
@@ -18,10 +18,10 @@ const AboutMe = () => {
     <>
       <div>
         <SEO
-          title="About"
+          title="Home"
           description={description}
           path=""
-          keywords={['jideabdqudus', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX', 'Meaning of Qudus', 'Abdul-Azeez', 'Kudus', 'Qudusini', 'Qudusini']}
+          keywords={['Abdul-Qudus', 'jideabdqudus', 'Jide Abdul-Qudus', 'Jide AbdulQudus', 'jide abdulqudus', 'The Qoder', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX', 'Meaning of Qudus', 'Abdul-Azeez', 'Kudus', 'Qudusini', 'Qoder']}
         />
         <h1 className="titleSeparate">
           About Me
