@@ -4,7 +4,7 @@ tags: [ app, ui, ux ]
 date: 2020-01-10T05:25:44.226Z
 path: blog/lag-mobile-app
 cover: ./lag-01.jpeg
-excerpt: While building a CMS for blogging, worpdress is the most commonly used platform. Gatsby has also topped the list recently. This article talk which one to go for and why I shifted from wordpress to gatsby. Is gatsby better than wordpress is the question I would be answering.  
+excerpt: The UI/UX of this app is concentrated on the experiences of users of the lag mobile app. The App is a mobile application that helps to solve the problems experienced with navigating constantly through the school's website.
 ---
 
 ## The Brief 

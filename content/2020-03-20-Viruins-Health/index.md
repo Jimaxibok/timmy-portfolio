@@ -4,7 +4,7 @@ tags: [ health, covid, viruins ]
 date: 2020-03-20T05:25:44.226Z
 path: blog/viruins-health
 cover: ./viruins-01.png
-excerpt: While building a CMS for blogging, worpdress is the most commonly used platform. Gatsby has also topped the list recently. This article talk which one to go for and why I shifted from wordpress to gatsby. Is gatsby better than wordpress is the question I would be answering.  
+excerpt: Viruins shows the UI of a proposed application which was built using React JS and Redux. 
 ---
 
 ## Brief 
