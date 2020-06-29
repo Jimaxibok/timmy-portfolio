@@ -32,7 +32,12 @@ const Tags = ({ data }) => {
         <SidebarWrapper>
           <>
             <div className="marginTopTitle">
-              <h1 className="titleSeparate">Projects</h1>
+              <h1 className="titleSeparate">
+                Projects
+                <span role="img" aria-label="laptop">
+                  💻
+                </span>
+              </h1>
             </div>
             <Row gutter={[30, 20]}>
               {
