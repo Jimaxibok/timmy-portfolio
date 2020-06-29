@@ -17,7 +17,7 @@ import style from './tags.module.less';
 
 const TagPage = ({ data, pageContext }) => {
   const { tag } = pageContext;
-  const tagName = Config.tags[tag].name || Utils.capitalize(tag);
+  const tagName = Utils.capitalize(tag);
   const tagPagePath = Config.pages.tag;
   const tagImage = data.allFile.edges.find((edge) => edge.node.name === tag).node
     .childImageSharp.fluid;
