@@ -20,7 +20,12 @@ const Blog = ({ data }) => (
       />
       <SidebarWrapper>
         <div className="marginTopTitle">
-          <h1 className="titleSeparate">Blog</h1>
+          <h1 className="titleSeparate">
+            Blog
+            <span role="img" aria-label="blog">
+              📝
+            </span>
+          </h1>
         </div>
         <Row gutter={[20, 20]}>
           {
