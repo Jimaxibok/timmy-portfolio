@@ -1,13 +1,13 @@
 ---
 title: Center aligning content with CSS and flex-box
 tags: [ html, css, reactjs ]
-date: 2020-05-15T05:25:44.226Z
+date: 2019-10-15T05:25:44.226Z
 path: blog/center-align-things-with-css
 cover: ./flexbox-css.jpg
-excerpt: Many a time I noticed that people find it very difficult to align content to the center either vertically or horizontally using CSS. So let's see few ways in how you can align content with css.  
+excerpt: I noticed that people find it very difficult to align content to the center either vertically or horizontally using CSS. So let's see few ways in how you can align content with css.  
 ---
 
-Many a time I noticed that people find it very difficult to align content to the center either vertically or horizontally using CSS 😐.
+I noticed that people find it very difficult to align content to the center either vertically or horizontally using CSS 😐.
 So I decided to write a few ways of aligning content to the center using CSS 😃.
 
 ### Center aligning text in CSS.
