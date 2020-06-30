@@ -1,5 +1,5 @@
-<p align="center">
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ff2498d7-6e2f-47e2-bb1a-00a3a22718a9/deploy-status)](https://app.netlify.com/sites/abdulqudus-v2/deploys)
+<p align="center">
 </p>
 <h1 align="center">
   My Portfolio <a href='https://abdulqudus.com' target='_blank'>"abdulqudus.com"</a>
