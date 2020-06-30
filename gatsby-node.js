@@ -33,6 +33,15 @@ exports.createPages = ({ actions, graphql }) => {
         // eslint-disable-next-line no-throw-literal
         throw `Invalid path prefix: ${node.frontmatter.path}`;
       }
+
+      createPage({
+        path: node.frontmatter.path,
+        component: path.resolve('src/templates/post/post.jsx'),
+        context: {
+          postPath: node.frontmatter.path,
+          translations: utils.getRelatedTranslations(node, allMarkdownRemark.edges),
+        },
+      });
     });
     const regexForIndex = /index\.md$/;
     // Posts in default language, excluded the translated versions

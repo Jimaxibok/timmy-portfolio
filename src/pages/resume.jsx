@@ -29,7 +29,7 @@ export default class Resume extends Component {
           path="resume"
         />
         <Document
-          file="../webresume.pdf"
+          file="../resume.pdf"
           onLoadSuccess={this.onDocumentLoadSuccess}
           style={{ maxWidth: '100px', maxHeight: '300px' }}
         >
