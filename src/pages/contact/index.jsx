@@ -27,10 +27,10 @@ const Contact = () => (
               className="widthFull contactImgBorder"
             />
           </Col>
-          <ContactForm />          
+          <ContactForm />
         </Row>
         <footer style={{ textAlign: 'center', padding: '20px' }}>
-            <b>~ Jide Abdul-Qudus Portfolio ~</b>
+          <b>~ Jide Abdul-Qudus Portfolio ~</b>
         </footer>
       </SidebarWrapper>
     </Layout>
