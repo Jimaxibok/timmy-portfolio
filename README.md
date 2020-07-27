@@ -1,7 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff2498d7-6e2f-47e2-bb1a-00a3a22718a9/deploy-status)](https://app.netlify.com/sites/abdulqudus-v2/deploys)
 <p align="center">
-  <a href="https://abdulqudus.com">
-    <img alt="Jide" src="https://drive.google.com/file/d/1YQJVca7irIjQ8_j_XlFRsoj8oXB0iAIC/view" width="60" />
-  </a>
 </p>
 <h1 align="center">
   My Portfolio <a href='https://abdulqudus.com' target='_blank'>"abdulqudus.com"</a>
