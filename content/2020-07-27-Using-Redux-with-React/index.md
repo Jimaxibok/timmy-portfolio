@@ -24,18 +24,47 @@ I personally recommend redux for medium/large scale applications and context for
 
 # How does Redux work?
 
-1. It has a single source of truth called `store`. The global state of your application is stored in an object tree within a single store. This makes it easy to create universal apps, as the state from your server can be serialized and hydrated into the client with no extra coding effort. <br/>
+1. It has a single source of truth called `store`. The global state of your application is stored in an object tree within a single store. This makes it easy to create universal apps, as the state from your server can be serialized and hydrated into the client with no extra coding effort. 
+<br/> <br/> 
 
-2. State is read only, hence, the only way to change the state is to emit an `action`, an object describing what happened.<br/>
+2. State is read only, hence, the only way to change the state is to emit an `action`, an object describing what happened.
+<br/><br/> 
 
 3. To specify how the state tree is transformed by actions, you write pure `reducers`.
 
-![](./2.png)
+
+# Getting our codes running
+
+- First step is installing our dependencies. 
+<br/> <br/>
+`npm i redux react-redux redux-thunk redux-devtools-extension`
+<br/> <br/>
+
+- Create store.js file in src folder 
 
 
+```html
+  
+<script>
 
+import { applyMiddleware, createStore } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
+import thunk from "redux-thunk";
+import rootReducer from "./reducers";
 
+const initialState = {};
+const middleware = [thunk];
+const store = createStore(
+  rootReducer,
+  initialState,
+  composeWithDevTools(applyMiddleware(...middleware))
+);
+export default store;
 
+</script>
+```
+
+- Update App.js with your store file
 
 
 
