@@ -109,8 +109,16 @@ module.exports = {
       projectName: 'The Simpsons Quotes',
       description: 'A React web application that auto generates quotes from the Simpsons series',
       color: '#fed304',
-      website: 'https://https://agitated-swanson-d0d5c5.netlify.app/',
+      website: 'https://agitated-swanson-d0d5c5.netlify.app/',
       github: 'https://github.com/jideabdqudus/quote-generator',
+    },
+    restaurant: {
+      name: 'restaurant',
+      projectName: 'Yelp Restaurant',
+      description: 'A React-Native mobile application that allows user search for top rated restaurants',
+      color: '#fbca02',
+      website: 'https://github.com/jideabdqudus/restaurant-native',
+      github: 'https://github.com/jideabdqudus/restaurant-native',
     },
   },
 };
