@@ -114,7 +114,7 @@ module.exports = {
     },
     restaurant: {
       name: 'restaurant',
-      projectName: 'Yelp Restaurant',
+      projectName: 'Restaurant Mobile',
       description: 'A React-Native mobile application that allows user search for top rated restaurants',
       color: '#fbca02',
       website: 'https://github.com/jideabdqudus/restaurant-native',
