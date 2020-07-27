@@ -65,6 +65,16 @@ const AboutMe = () => {
             textH3="Node JS"
           />
         </Col>
+        <Col xs={24} sm={24} md={12} lg={6}>
+          <AboutTile
+            img="native.png"
+            alt="ReactNative"
+            textH4="Mobile APP"
+            textH3="React Native"
+            height={65}
+            width={60}
+          />
+        </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="mongodb.png"
@@ -85,7 +95,7 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={6}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="gatsby.png"
             alt="GATSBY"
@@ -99,16 +109,6 @@ const AboutMe = () => {
             alt="Wordpress"
             textH4="CMS"
             textH3="Wordpress"
-            height={60}
-            width={60}
-          />
-        </Col>
-        <Col xs={12} sm={12} md={12} lg={6}>
-          <AboutTile
-            img="contentful.png"
-            alt="Contentful"
-            textH4="CMS"
-            textH3="Contentful"
             height={60}
             width={60}
           />
