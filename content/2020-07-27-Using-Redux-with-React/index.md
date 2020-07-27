@@ -86,7 +86,7 @@ I personally recommend redux for medium/large scale applications and context for
   import { combineReducers } from 'redux'
   import profileReducer from './profileReducer'
 
-  export default combineReducers({ profileReducer: profileReducer })
+  export default combineReducers({})
 </script>
 ```
 
@@ -142,7 +142,40 @@ All subsequent reducers would be created in the reducers folder and added to com
     default:
       return state;
   }
-
 </script>
 ```
 
+- Update `index.js` file in reducers folder
+
+```html
+<script>
+  import { combineReducers } from 'redux'
+  import profileReducer from './profileReducer'
+
+  export default combineReducers({ profileReducer: profileReducer })
+</script>
+```
+
+` Using redux on the Compinent of choice
+
+```html
+<script>
+import React, { useState } from 'react'
+  import { useDispatch, useSelector } from 'react-redux'
+
+  import { addProfile } from '../../../actions/profileActions'
+
+    const Home =()=>{
+        const profile = useSelector ((state)=>state.profilereducer)
+
+        return(
+            {profile.users.map((user)=>(
+                <li>{user.name} is with id: {user.id}</li>
+            ))}
+        )
+    }
+
+    //To dispatch an action you can do 
+    <Button onClick ={()=> dispatch(addProfile())}> Add </Button>
+</script>
+```
