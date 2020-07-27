@@ -23,13 +23,20 @@ I personally recommend redux for medium/large scale applications and context for
 
 # How does Redux work?
 
-1. It has a single source of truth called `store`. The global state of your application is stored in an object tree within a single store. This makes it easy to create universal apps, as the state from your server can be serialized and hydrated into the client with no extra coding effort.
-   <br/> <br/>
+In Redux, you have to remember 3 things:
 
-2. State is read only, hence, the only way to change the state is to emit an `action`, an object describing what happened.
-   <br/><br/>
+1. Action
+2. Reducer
+3. Store
 
-3. To specify how the state tree is transformed by actions, you write pure `reducers`.
+So in redux, you will create only one store and pass the store in your top most react component. Normally in App Component in src/App.js file or index.js file.
+Store holds all the app state or global state for the application in Redux.
+
+As the store will be passed to the React application or view part, we can pass any information or command. This is called action in Redux way. That means, you want to dispatch and action to send some command.
+
+Basically the actions will be dispatched to the reducer which is a fancy term of function. Reducer will get the current state from the store and will use the actions to create new state based on old state and will update in the store.
+
+Finally, if a view component is connected to the store, it will re render when the state in redux store will be updated.
 
 # Getting our codes running
 
