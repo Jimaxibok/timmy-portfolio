@@ -201,4 +201,6 @@ import React, { useState } from 'react'
 
 We now have a fully running react-redux application. New reducers can be created in the reducers folder, actions created in the actions folder then connected to the combineReducers export. 
 
-For a video tutorial check [gatsby docs](https://www.gatsbyjs.org/docs/)
+For a video tutorial check [this youtube tutorial](https://www.youtube.com/watch?v=CVpUuw9XSjY&t=2020s)
+
+Thanks a lot in advance for your feedback and for your reading!
