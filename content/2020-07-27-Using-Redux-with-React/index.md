@@ -40,7 +40,7 @@ I personally recommend redux for medium/large scale applications and context for
 `npm i redux react-redux redux-thunk redux-devtools-extension`
 <br/> <br/>
 
-- Create store.js file in src folder 
+- Create `store.js` file in src folder 
 
 
 ```html
@@ -63,9 +63,27 @@ export default store;
 
 </script>
 ```
+<br/><br/>
 
-- Update App.js with your store file
+- Update `App.js` with your store file
 
+```html
+<script>
+import {Provider} from 'react-redux'
+import store from './store'
+
+const App = ()=>{
+    return (
+        <Provider store={store}>
+            <Fragment>
+                <Home/>
+            </Fragment>
+        </Provider>
+    )
+}
+</script>
+
+```
 
 
 
