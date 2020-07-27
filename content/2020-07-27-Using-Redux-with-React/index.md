@@ -45,7 +45,7 @@ Finally, if a view component is connected to the store, it will re render when t
   `npm i redux react-redux redux-thunk redux-devtools-extension`
   <br/> <br/>
 
-- Create `store.js` file in src folder
+- Create a `store.js` file inside the src folder of your react app
 
 ```html
 <script>
@@ -67,7 +67,7 @@ Finally, if a view component is connected to the store, it will re render when t
 
 <br/><br/>
 
-- Update `App.js` with your store file
+- Update and connect `App.js` with your store file
 
 ```html
 <script>
@@ -86,7 +86,9 @@ Finally, if a view component is connected to the store, it will re render when t
 </script>
 ```
 
-- Create a reducers folder with file `index.js`
+<br/><br/>
+
+- Create a reducers folder with file `index.js`, this is where all your reducers live
 
 ```html
 <script>
@@ -97,9 +99,11 @@ Finally, if a view component is connected to the store, it will re render when t
 </script>
 ```
 
-All subsequent reducers would be created in the reducers folder and added to combineReducers
-
+All subsequent reducers would be created in the reducers folder and added to the combineReducers bracket
+<br/><br/>
 - Create Actions folder in src
+
+<br/><br/>
 
 - Create `Types.js` file in Actions folder
 
@@ -108,6 +112,8 @@ All subsequent reducers would be created in the reducers folder and added to com
   export const ADD_PROFILE = 'ADD_PROFILE'
 </script>
 ```
+
+<br/><br/>
 
 - Create `profileActions.js` file in Actions folder (profileActions because we are trying to create an action that updates a profile form)
 
@@ -124,6 +130,7 @@ All subsequent reducers would be created in the reducers folder and added to com
 </script>
 ```
 
+<br/><br/>
 - Create `profileReducer.js` file in reducers folder
 
 ```html
@@ -152,7 +159,9 @@ All subsequent reducers would be created in the reducers folder and added to com
 </script>
 ```
 
-- Update `index.js` file in reducers folder
+<br/><br/>
+
+- Update the `index.js` file in reducers folder
 
 ```html
 <script>
@@ -162,8 +171,9 @@ All subsequent reducers would be created in the reducers folder and added to com
   export default combineReducers({ profileReducer: profileReducer })
 </script>
 ```
+<br/><br/>
 
-` Using redux on the Compinent of choice
+- Try using Redux on your Component of choice
 
 ```html
 <script>
@@ -186,3 +196,9 @@ import React, { useState } from 'react'
     <Button onClick ={()=> dispatch(addProfile())}> Add </Button>
 </script>
 ```
+
+# Conclusion 
+
+We now have a fully running react-redux application. New reducers can be created in the reducers folder, actions created in the actions folder then connected to the combineReducers export. 
+
+For a video tutorial check [gatsby docs](https://www.gatsbyjs.org/docs/)
