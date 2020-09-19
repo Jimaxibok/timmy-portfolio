@@ -144,5 +144,13 @@ module.exports = {
       website: 'https://github.com/jideabdqudus',
       github: 'https://originate-theqoder.netlify.app',
     },
+    moneyvest: {
+      name: 'moneyvest',
+      projectName: 'Moneyvest',
+      description: 'A financial web application, built using ReactJS, Redux. Consists of Website and User Dashboard',
+      color: '#fefefe',
+      website: 'https://github.com/jideabdqudus',
+      github: 'https://moneyvestjide.netlify.app',
+    },
   },
 };
