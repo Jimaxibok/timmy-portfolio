@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Affix, Layout, Row, Col,
 } from 'antd';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import FA from 'react-fontawesome';
 import FeatherIcon from 'feather-icons-react';
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -51,11 +51,11 @@ const DomContent = () => (
           </a>
         </li>
       </ul>
-      <div className={style.resumeDownload}>
+      {/* <div className={style.resumeDownload}>
         <Link to="/resume">
           View my Resume
         </Link>
-      </div>
+</div> */ }
     </div>
   </aside>
 );

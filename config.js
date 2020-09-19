@@ -120,5 +120,13 @@ module.exports = {
       website: 'https://github.com/jideabdqudus/restaurant-native',
       github: 'https://github.com/jideabdqudus/restaurant-native',
     },
+    crowdyvest: {
+      name: 'crowdyvest',
+      projectName: 'Crowdyvest Website',
+      description: 'A website built for a financial institution, UI adapted from already hosted website',
+      color: '#000',
+      website: 'https://github.com/jideabdqudus',
+      github: 'https://crowdyvest-theqoder.netlify.app/',
+    },
   },
 };
