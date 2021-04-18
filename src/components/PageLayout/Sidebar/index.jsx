@@ -27,7 +27,7 @@ const DomContent = () => (
           <span>Abdul-Qudus</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Software Developer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
       <div className="centerAlign box">
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
@@ -44,7 +44,7 @@ const DomContent = () => (
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:jideabdqudus@gmail.com"
+            href="mailto:hello@abdulqudus.com"
             target="_top"
           >
             <span className={style.emailHider}>@</span>

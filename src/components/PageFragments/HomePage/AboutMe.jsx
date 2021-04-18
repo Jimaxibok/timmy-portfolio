@@ -5,12 +5,11 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Full-Stack Developer 
-  with penchant for <b>Web/App development</b> and also <b>UI/UX design.</b> I like scratching my own itch 
-  and writing about Web-Design, UI/UX case studies, and Tech thereof. During my spare time, I'm an autodidact polymath acquiring knowledge
-  from various resources online 🤓.`,
-  paraTwo: `I work mostly with <b>Javascript technologies</b>. I also have hands on experience working with design tools such as <b>Illustrator / Figma / Photoshop.</b> 
-  <br/><br/>I currently hold 3+ years of work experience in the Development field 💯`,
+  paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Full-Stack Software Engineer 
+  with penchant for <b>Web/App development</b>. I like scratching my own itch 
+  and writing about Web Technologies, UI/UX case studies, and Tech-bits thereof. During my spare time, I'm an autodidact polymath acquiring knowledge from various resources online 🤓.`,
+  paraTwo: `I work mostly with <b>Web technologies</b>, I also have hands on experience working with <b>Design Tools</b> such as <b>Illustrator / Figma / Photoshop</b>, likewise <b>Development & Operations</b> tools such as <b>Jenkins / Octopus / Docker / Git</b> 👨🏼‍💻.
+  <br/><br/>I currently hold <b>4+ years of work experience</b> in the Development field working across Startups, Multinational corporation, Fintech and Cryptocurrency exchange platforms in <b>Nigeria</b> and the <b>United Kingdom</b>. `,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
@@ -40,16 +39,16 @@ const AboutMe = () => {
         </span>
       </h3>
       <Row gutter={[20, 20]}>
-        <Col xs={12} sm={12} md={12} lg={6}>
+        <Col xs={24} sm={24} md={12} lg={6}>
           <AboutTile
-            img="javascript.png"
+            img="python.png"
             height={60}
             alt="Javascript"
             textH4="Programming"
-            textH3="Javascript"
+            textH3="Python"
           />
         </Col>
-        <Col xs={12} sm={12} md={12} lg={12}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="react.png"
             alt="React"
@@ -57,19 +56,27 @@ const AboutMe = () => {
             textH3="React JS"
           />
         </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
+            img="typescript.png"
+            alt="Typescript"
+            textH4="Scripting"
+            textH3="Typescript"
+          />
+        </Col>
         <Col xs={24} sm={24} md={12} lg={6}>
           <AboutTile
-            img="node.png"
-            alt="Node"
+            img="django.jpg"
+            alt="Django"
             textH4="Back-End"
-            textH3="Node JS"
+            textH3="Django"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={6}>
           <AboutTile
             img="native.png"
             alt="ReactNative"
-            textH4="Mobile APP"
+            textH4="Mobile"
             textH3="React Native"
             height={65}
             width={60}
@@ -77,10 +84,10 @@ const AboutMe = () => {
         </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="mongodb.png"
-            alt="Mongo DB"
-            textH4="Database"
-            textH3="Mongo DB"
+            img="graphql.png"
+            alt="GraphQL"
+            textH4="Query"
+            textH3="GraphQL"
             height={60}
             width={60}
           />
@@ -89,7 +96,7 @@ const AboutMe = () => {
           <AboutTile
             img="css.png"
             alt="CSS"
-            textH4="Front-End"
+            textH4="Styling"
             textH3="CSS3"
             height={60}
             width={60}
@@ -97,23 +104,15 @@ const AboutMe = () => {
         </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="gatsby.png"
-            alt="GATSBY"
-            textH4="CMS"
-            textH3="Gatsby JS"
-          />
-        </Col>
-        <Col xs={12} sm={12} md={12} lg={6}>
-          <AboutTile
-            img="wordpress.png"
-            alt="Wordpress"
-            textH4="CMS"
-            textH3="Wordpress"
+            img="sass.png"
+            alt="sass"
+            textH4="Styling"
+            textH3="Sass"
             height={60}
             width={60}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={6}>
+        <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="figma.png"
             alt="FIGMA"
@@ -123,20 +122,22 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-        <Col xs={12} sm={12} md={12} lg={6}>
+        <Col xs={24} sm={24} md={12} lg={6}>
           <AboutTile
-            img="photoshop.png"
-            alt="Photoshop"
-            textH4="Design-UI/UX"
-            textH3="Photoshop"
+            img="jenkins.png"
+            alt="Jenkins"
+            textH4="CI/CD"
+            textH3="Jenkins"
+            height={60}
+            width={60}
           />
         </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="illustrator.png"
-            alt="Illustrator"
-            textH4="Design-UI/UX"
-            textH3="Illustrator"
+            img="octopus.png"
+            alt="Octopus"
+            textH4="CI/CD"
+            textH3="Octopus"
             height={60}
             width={60}
           />
@@ -156,6 +157,14 @@ const AboutMe = () => {
             alt="Github"
             textH4="Development Tool"
             textH3="Github"
+          />
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
+            img="gitlab.png"
+            alt="Gitlab"
+            textH4="Development Tool"
+            textH3="Gitlab"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={12}>
