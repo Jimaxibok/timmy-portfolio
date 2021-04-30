@@ -171,7 +171,7 @@ module.exports = {
     pymail: {
       name: 'pymail',
       projectName: 'PyMail',
-      description: 'Pymail allows you send email to one or more people outside of your mail host provider app, similar to "Mailchimp". User can send a mail containing a website or plain texts with dynamic content.',
+      description: 'Pymail allows you send email to one or more people outside of your mail host provider app, similar to "Mailchimp". Send websites, or plain texts with dynamic contents.',
       color: '#EB6365',
       website: 'https://github.com/jideabdqudus/Python_Mails',
       github: 'https://github.com/jideabdqudus/Python_Mails',
@@ -179,10 +179,26 @@ module.exports = {
     trail: {
       name: 'trail',
       projectName: 'Trail',
-      description: 'Trail is a digital tool for organizations to monitor and evaluate projects. Commonly referred to as a Monitoring and Evaluation tool, this app compromises of a Product Site, Web app and Admin area',
+      description: 'A digital tool for organizations to monitor and evaluate projects. Commonly referred to as a Monitoring and Evaluation tool.',
       color: '#EB6365',
       website: 'https://mytrail.io',
-      github: 'https://mytrail.io',
+      github: 'https://app.mytrail.io',
+    },
+    datastudio: {
+      name: 'datastudio',
+      projectName: 'Datastudio',
+      description: 'The datastudio is a  Crypto-Trade application with tickers and information for more than 400 coins and dynamic tracking ',
+      color: '#fed309',
+      website: 'https://datastudio-theqoder.netlify.app/',
+      github: 'https://github.com/jideabdqudus/DataStudio',
+    },
+    signals: {
+      name: 'signals',
+      projectName: 'Signals',
+      description: 'Signals is a Key Performance Indicator Management System, for tracking and evaluate viable systems in a company or organization.',
+      color: '#fed309',
+      website: 'https://signalsv2-web.staging.vggdev.com/',
+      github: 'https://signalsv2-web.staging.vggdev.com/',
     },
   },
 };
