@@ -27,6 +27,17 @@ const Blog = ({ data }) => (
             </span>
           </h1>
         </div>
+        <h3 className="blogInfo">
+          <span role="img" aria-label="blog">
+            👋🏾
+          </span>
+          While you are here, I moved my blog to a new home, visit
+          <a href="https://blog.abdulqudus.com" target="__blank"> blog.abdulqudus.com </a>
+          to read more exciting articles
+          <span role="img" aria-label="blog">
+            👋🏼
+          </span>
+        </h3>
         <Row gutter={[20, 20]}>
           {
             data.allMarkdownRemark && data.allMarkdownRemark.edges.map((val, key) => (

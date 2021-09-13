@@ -182,7 +182,7 @@ module.exports = {
       description: 'A digital tool for organizations to monitor and evaluate projects. Commonly referred to as a Monitoring and Evaluation tool.',
       color: '#EB6365',
       website: 'https://mytrail.io',
-      github: 'https://app.mytrail.io',
+      github: 'https://github.com/jideabdqudus/trail-v2',
     },
     datastudio: {
       name: 'datastudio',
@@ -199,6 +199,14 @@ module.exports = {
       color: '#fed309',
       website: 'https://signalsv2-web.staging.vggdev.com/',
       github: 'https://signalsv2-web.staging.vggdev.com/',
+    },
+    guessmynumber: {
+      name: 'guessmynumber',
+      projectName: 'Guess my number',
+      description: 'Guess my number is an interactive game, built with html, css and javascript for interaction.',
+      color: '#fed309',
+      website: 'https://guess-my-number-theqoder.netlify.app/',
+      github: 'https://github.com/jideabdqudus/Guess-my-Number',
     },
   },
 };
