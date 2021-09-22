@@ -43,9 +43,9 @@ export default () => {
               </Link>
             </li>
             <li className={style.navItem}>
-              <Link to="/blog" onClick={toggleMenu} activeClassName={style.anchorActive}>
+              <a href="https://blog.abdulqudus.com" target="__blank" rel="noopener noreferrer" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Blog
-              </Link>
+              </a>
             </li>
             <li className={style.navItem}>
               <Link to="/contact" onClick={toggleMenu} activeClassName={style.anchorActive}>
