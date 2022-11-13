@@ -1,18 +1,38 @@
-import React from 'react';
-import { Layout, Row, Col } from 'antd';
-import Header from '../../components/PageLayout/Header';
-import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import ContactForm from '../../components/PageFragments/ContactForm';
-import SEO from '../../components/Seo';
+import React from 'react'
+import { Layout, Row, Col } from 'antd'
+import Header from '../../components/PageLayout/Header'
+import SidebarWrapper from '../../components/PageLayout/Sidebar'
+import ContactForm from '../../components/PageFragments/ContactForm'
+import SEO from '../../components/Seo'
 
 const Contact = () => (
   <Layout className="outerPadding">
     <Layout className="container">
       <SEO
         title="Contact"
-        description="Hello friend jideabdqudus here. You can contact me through the contact form on this page."
+        description="Hello friend Timilehin here. You can contact me through the contact form on this page."
         path="/contact"
-        keywords={['jideabdqudus', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'Abdul-Azeez', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX']}
+        keywords={[
+          'Ayantunji Timilehin',
+          'timilehinayantunji',
+          'Timilehin',
+          'Ayantunji',
+          'timmy',
+          'Micheal',
+          'developer',
+          'software',
+          'frontend',
+          'FullStack developer',
+          'Javascript',
+          'ReactJS',
+          'Front-End',
+          'Software developer',
+          'NodeJS',
+          'Designer',
+          'UI/UX',
+          'Meaning of Timilehin',
+          'Qoder',
+        ]}
       />
       <Header />
       <SidebarWrapper>
@@ -35,11 +55,11 @@ const Contact = () => (
           <ContactForm />
         </Row>
         <footer style={{ textAlign: 'center', padding: '20px' }}>
-          <b>~ Jide Abdul-Qudus Portfolio ~</b>
+          <b>~ Ayantunji Timilehin ~</b>
         </footer>
       </SidebarWrapper>
     </Layout>
   </Layout>
-);
+)
 
-export default Contact;
+export default Contact

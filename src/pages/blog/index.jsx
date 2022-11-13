@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import { Layout, Row, Col } from 'antd';
-import Header from '../../components/PageLayout/Header';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
+import { Layout, Row, Col } from 'antd'
+import Header from '../../components/PageLayout/Header'
 
-import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import PostCard from '../../components/PostCard';
-import SEO from '../../components/Seo';
+import SidebarWrapper from '../../components/PageLayout/Sidebar'
+import PostCard from '../../components/PostCard'
+import SEO from '../../components/Seo'
 
 const Blog = ({ data }) => (
   <Layout className="outerPadding">
@@ -32,29 +32,31 @@ const Blog = ({ data }) => (
             👋🏾
           </span>
           While you are here, I moved my blog to a new home, visit
-          <a href="https://blog.abdulqudus.com" target="__blank"> blog.abdulqudus.com </a>
+          <a href="https://blog.abdulqudus.com" target="__blank">
+            {' '}
+            blog.abdulqudus.com{' '}
+          </a>
           to read more exciting articles
           <span role="img" aria-label="blog">
             👋🏼
           </span>
         </h3>
         <Row gutter={[20, 20]}>
-          {
-            data.allMarkdownRemark && data.allMarkdownRemark.edges.map((val, key) => (
+          {data.allMarkdownRemark &&
+            data.allMarkdownRemark.edges.map((val, key) => (
               // eslint-disable-next-line react/no-array-index-key
               <Col key={key} xs={24} sm={24} md={12} lg={8}>
                 <PostCard data={val} />
               </Col>
-            ))
-          }
+            ))}
         </Row>
         <footer style={{ textAlign: 'center', padding: '20px' }}>
-          <b>~ Jide Abdul-Qudus Portfolio ~</b>
+          <b>~ Ayantunji Timilehin Portfolio ~</b>
         </footer>
       </SidebarWrapper>
     </Layout>
   </Layout>
-);
+)
 
 Blog.propTypes = {
   data: PropTypes.shape({
@@ -62,7 +64,7 @@ Blog.propTypes = {
       edges: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
     }).isRequired,
   }).isRequired,
-};
+}
 
 export const query = graphql`
   {
@@ -90,6 +92,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default Blog;
+export default Blog

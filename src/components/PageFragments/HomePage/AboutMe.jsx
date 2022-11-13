@@ -1,18 +1,17 @@
-import React from 'react';
-import { Row, Col } from 'antd';
-import AboutTile from '../../AbouTile';
-import { stripTags, domHtml } from '../../../utils/stripTags';
-import SEO from '../../Seo';
+import React from 'react'
+import { Row, Col } from 'antd'
+import AboutTile from '../../AbouTile'
+import { stripTags, domHtml } from '../../../utils/stripTags'
+import SEO from '../../Seo'
 
 const pageText = {
-  paraOne: `👋 I'm <b>Jide {Abdul-Qudus}</b>, a Full-Stack Software Engineer 
+  paraOne: `👋 I'm <b>Ayantunji Timilehin</b>, a Full-Stack Software Engineer 
   with penchant for <b>Web/App development</b>. I like scratching my own itch 
-  and writing about Web Technologies, UI/UX case studies, and Tech-bits thereof. During my spare time, I'm an autodidact polymath acquiring knowledge from various resources online 🤓.`,
-  paraTwo: `I work mostly with <b>Web technologies</b>, I also have hands on experience working with <b>Design Tools</b> such as <b>Illustrator / Figma / Photoshop</b>, likewise <b>Development & Operations</b> tools such as <b>Jenkins / Octopus / Docker / Git</b> 👨🏼‍💻.
-  <br/><br/>I currently hold <b>4+ years of work experience</b> in the Development field working across Startups, Multinational corporation, Fintech and Cryptocurrency exchange platforms in <b>Nigeria</b> and the <b>United Kingdom</b>. `,
-};
+  and studingy software Technologies, UI/UX case studies, and Tech-bits thereof. During my spare time, I'm an autodidact polymath acquiring knowledge from various resources online 🤓.`,
+  paraTwo: `I work mostly with <b>Web technologies</b>, I currently hold <b>4 years of work experience</b> in the Development field working across Startups, Multinational corporation, Fintech and Cryptocurrency exchange platforms in <b>Nigeria,</b> <b>Africa</b> and the <b>United States</b>. `,
+}
 const AboutMe = () => {
-  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`
   return (
     <>
       <div>
@@ -20,13 +19,31 @@ const AboutMe = () => {
           title="Home"
           description={description}
           path=""
-          keywords={['Abdul-Qudus', 'jideabdqudus', 'Jide Abdul-Qudus', 'Jide AbdulQudus', 'jide abdulqudus', 'The Qoder', 'Jide', 'Qudus', 'Abdul', 'Abdul-Qudus', 'FullStack developer', 'Javascript', 'ReactJS', 'Front-End', 'Software developer', 'NodeJS', 'Designer', 'UI/UX', 'Meaning of Qudus', 'Abdul-Azeez', 'Kudus', 'Qudusini', 'Qoder']}
+          keywords={[
+            'Ayantunji Timilehin',
+            'timilehinayantunji',
+            'Timilehin',
+            'Ayantunji',
+            'timmy',
+            'Micheal',
+            'developer',
+            'software',
+            'frontend',
+            'FullStack developer',
+            'Javascript',
+            'ReactJS',
+            'Front-End',
+            'Software developer',
+            'NodeJS',
+            'Designer',
+            'UI/UX',
+            'Meaning of Timilehin',
+            'Qoder',
+          ]}
         />
         <h1 className="titleSeparate">
           About Me
-          <span>
-            &#128071;&#127998;
-          </span>
+          <span>&#128071;&#127998;</span>
         </h1>
         <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
@@ -39,15 +56,6 @@ const AboutMe = () => {
         </span>
       </h3>
       <Row gutter={[20, 20]}>
-        <Col xs={24} sm={24} md={12} lg={6}>
-          <AboutTile
-            img="python.png"
-            height={60}
-            alt="Javascript"
-            textH4="Programming"
-            textH3="Python"
-          />
-        </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
             img="react.png"
@@ -58,36 +66,26 @@ const AboutMe = () => {
         </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
+            img="next-js.jpeg"
+            alt="React"
+            textH4="Front-End"
+            textH3="NextJS"
+          />
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
             img="typescript.png"
             alt="Typescript"
             textH4="Scripting"
             textH3="Typescript"
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={6}>
-          <AboutTile
-            img="django.jpg"
-            alt="Django"
-            textH4="Back-End"
-            textH3="Django"
-          />
-        </Col>
-        <Col xs={24} sm={24} md={12} lg={6}>
-          <AboutTile
-            img="native.png"
-            alt="ReactNative"
-            textH4="Mobile"
-            textH3="React Native"
-            height={65}
-            width={60}
-          />
-        </Col>
         <Col xs={12} sm={12} md={12} lg={6}>
           <AboutTile
-            img="graphql.png"
-            alt="GraphQL"
-            textH4="Query"
-            textH3="GraphQL"
+            img="antd.jpeg"
+            alt="CSS"
+            textH4="Styling"
+            textH3="Antd Design"
             height={60}
             width={60}
           />
@@ -118,6 +116,26 @@ const AboutMe = () => {
             alt="FIGMA"
             textH4="Design-UI/UX"
             textH3="Figma"
+            height={60}
+            width={60}
+          />
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
+            img="cypress.jpeg"
+            alt="FIGMA"
+            textH4="Cypress"
+            textH3="Cypress"
+            height={60}
+            width={60}
+          />
+        </Col>
+        <Col xs={12} sm={12} md={12} lg={6}>
+          <AboutTile
+            img="node.png"
+            alt="Octopus"
+            textH4="Backend"
+            textH3="Node Js"
             height={60}
             width={60}
           />
@@ -177,9 +195,9 @@ const AboutMe = () => {
         </Col>
       </Row>
       <footer style={{ textAlign: 'center', padding: '20px' }}>
-        <b>~ Jide Abdul-Qudus Portfolio ~</b>
+        <b>~ Ayantunji Timilehin Portfolio ~</b>
       </footer>
     </>
-  );
-};
-export default AboutMe;
+  )
+}
+export default AboutMe

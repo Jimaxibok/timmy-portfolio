@@ -1,32 +1,70 @@
-import React from 'react';
-import {
-  Layout, Row, Col,
-} from 'antd';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Header from '../../components/PageLayout/Header';
-import SEO from '../../components/Seo';
-import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import TagCard from '../../components/TagCard';
-import Config from '../../../config';
+import React from 'react'
+import { Layout, Row, Col } from 'antd'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
+import Header from '../../components/PageLayout/Header'
+import SEO from '../../components/Seo'
+import SidebarWrapper from '../../components/PageLayout/Sidebar'
+import TagCard from '../../components/TagCard'
+import Config from '../../../config'
+import pocketMoni from '../../images/pocketmoni.jpeg'
+import edutech from '../../images/edutech.jpeg'
+import assetstack from '../../images/assetstack.jpeg'
+import gardenacademy from '../../images/garden-academy.jpeg'
+import vulte from '../../images/vulte.jpeg'
 
 const Tags = ({ data }) => {
-  const { allFile: { edges } } = data;
+  const {
+    allFile: { edges },
+  } = data
   const rawTags = data.allMarkdownRemark.edges
-    .map((edge) => edge.node.frontmatter.tags)
-    .reduce((prev, curr) => prev.concat(curr));
-  rawTags
-    .filter((tag, index) => index === rawTags.indexOf(tag))
-    .sort(); // Remove duplicates and sort values
+    .map(edge => edge.node.frontmatter.tags)
+    .reduce((prev, curr) => prev.concat(curr))
+  rawTags.filter((tag, index) => index === rawTags.indexOf(tag)).sort() // Remove duplicates and sort values
   // const tagPage = Config.pages.tag;
-  const tagData = Config.tags;
+  const tagData = Config.tags
+  const projectsToMap = [
+    {
+      img: pocketMoni,
+      website: 'hhtps://www.pmportal.etranzactng.com',
+      projectName: 'PocketMoni Agent Portal',
+      description:
+        'A portal built for the Mobile App and POS machine users. To manage their transactions, while helping admins manage agents operations',
+    },
+    {
+      img: gardenacademy,
+      website: 'https://www.gardenacademy.io',
+      projectName: 'Garden Academy',
+      description:
+        'A mini-udemy application for learning and development. Mainly targets interns and people with interest in getting into the IT world',
+    },
+    {
+      img: assetstack,
+      projectName: 'Assetstack',
+      description:
+        'AssetStack is a Special Purpose Vehicle Asset-Investment platform. FundManagers creates Funds for Investors to invest in.',
+    },
+    {
+      img: vulte,
+      website: 'https://www.vulte.ng',
+      projectName: 'Vulte',
+      description:
+        'A banking application where users can create bank accounts automatically and begin transactions almost immediately',
+    },
+    {
+      img: edutech,
+      website: 'https://www.edutech.global',
+      projectName: 'Edutech Website',
+      description: 'The official website of Edutech',
+    },
+  ]
   return (
     <Layout className="outerPadding">
       <Layout className="container">
         <Header />
         <SEO
           title="Projects"
-          description="This page consists of various Projects undergone by Jide Abdul-Qudus."
+          description="This page consists of various Projects undergone by Ayantunji Timilehin."
           path="projects"
         />
         <SidebarWrapper>
@@ -40,31 +78,26 @@ const Tags = ({ data }) => {
               </h1>
             </div>
             <Row gutter={[30, 20]}>
-              {
-                edges.map((val) => (
-                  <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
-                    <TagCard
-                      img={val.node.childImageSharp.fluid.src}
-                      name={val.node.name}
-                      website={tagData[val.node.name].website}
-                      projectName={tagData[val.node.name].projectName}
-                      github={tagData[val.node.name].github}
-                      description={tagData[val.node.name].description}
-                      color={tagData[val.node.name].color}
-                    />
-                  </Col>
-                ))
-              }
+              {projectsToMap.map(val => (
+                <Col key={val.projectName} xs={24} sm={24} md={12} lg={8}>
+                  <TagCard
+                    img={val.img}
+                    website={val.website}
+                    projectName={val.projectName}
+                    description={val.description}
+                  />
+                </Col>
+              ))}
             </Row>
             <footer style={{ textAlign: 'center', padding: '20px' }}>
-              <b>~ Jide Abdul-Qudus Portfolio ~</b>
+              <b>~ Ayantunji Timilehin Portfolio ~</b>
             </footer>
           </>
         </SidebarWrapper>
       </Layout>
     </Layout>
-  );
-};
+  )
+}
 
 Tags.propTypes = {
   data: PropTypes.shape({
@@ -76,7 +109,7 @@ Tags.propTypes = {
               tags: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
             }).isRequired,
           }).isRequired,
-        }).isRequired,
+        }).isRequired
       ).isRequired,
     }).isRequired,
     allFile: PropTypes.shape({
@@ -88,11 +121,11 @@ Tags.propTypes = {
               fluid: PropTypes.object.isRequired,
             }).isRequired,
           }).isRequired,
-        }).isRequired,
+        }).isRequired
       ).isRequired,
     }).isRequired,
   }).isRequired,
-};
+}
 
 export const query = graphql`
   {
@@ -118,6 +151,6 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export default Tags;
+export default Tags
